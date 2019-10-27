@@ -1,3 +1,3 @@
-import hello from './hello';
+import welcome from './welcome';
 
-window.alert(hello('Antony'));
+exports.welcome = welcome;
