@@ -7,8 +7,12 @@ import json from './assets/json.json';
 import xml from './assets/data.xml';
 import csv from './assets/data.csv';
 
+import './babel';
+import './index.jsx';
+
 import './styles/styles.css';
 import './styles/styles.less';
+import './styles/styles.scss';
 
 const post = new Post('Webpack post title', webpackLogo);
 console.log('Post to string', post.toString());

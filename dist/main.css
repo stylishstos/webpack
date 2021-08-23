@@ -1,0 +1,45 @@
+h1 {
+    width: 400px;
+    margin: 35px auto 0 auto;
+    text-align: center;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    margin: 15px auto 0 auto;
+    width: 50px;
+    border-bottom: 1px solid #000;
+}
+
+.container {
+    text-align: center;
+    padding: 15px;
+}
+
+
+.logo {
+    display: inline-block;
+    background-image: url(9281492bb267314634b490dc3fcfc410.png);
+    background-repeat: no-repeat;
+    width: 128px;
+    height: 128px;
+}
+.less-box {
+  padding: 1rem;
+}
+.less-box h2 {
+  color: red;
+  text-align: center;
+  font-size: 24px;
+}
+
+.sass-box {
+  padding: 1rem; }
+  .sass-box h2 {
+    color: limegreen;
+    text-align: center;
+    font-size: 24px; }
+
+
+/*# sourceMappingURL=main.css.map*/
